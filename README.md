@@ -28,10 +28,10 @@ Performed in Microsoft Excel:
 
 | Metric | Count |
 |---|---|
-| Original records | 978 |
+| Original records | 977 |
 | Duplicates removed | 89 |
 | Corrupted records removed | 2 |
-| **Final clean dataset** | **887** |
+| **Final clean dataset** | **888** |
 
 ## Salesforce Migration
 The cleaned dataset was migrated into a Salesforce Developer Org as Lead records using:
