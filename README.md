@@ -38,6 +38,8 @@ The cleaned dataset was migrated into a Salesforce Developer Org as Lead records
 - **Salesforce Data Import Wizard** (initial import)
 - **Workbench** (REST API-based insert, used to troubleshoot and complete the migration)
 
+<img width="1440" height="900" alt="צילום מסך 2026-08-30 ב-19 07 21" src="https://github.com/user-attachments/assets/e0b765a3-3e25-4a92-b3c2-a8af015fda53" />
+
 ### Challenges encountered & solved
 - Salesforce's Bulk API was not enabled by default on Workbench — resolved by switching to standard REST API inserts
 - Salesforce's built-in Duplicate Management Rules blocked re-imports of records that had already loaded successfully in a prior (seemingly stuck) import attempt
