@@ -7,7 +7,7 @@ This project demonstrates an end-to-end data cleansing and migration workflow: t
 Simulate a real-world scenario where a messy customer/leads dataset needs to be cleaned, validated, and imported into a CRM system — a common task for Data Analysts and Salesforce Administrators.
 
 ## Dataset
-The raw dataset (`dirty_leads_dataset.csv`) contained ~978 records with intentionally introduced data quality issues:
+The raw dataset (`dirty_leads_dataset.csv`) contained ~977 records with intentionally introduced data quality issues:
 - Duplicate records (exact and near-duplicates with formatting variations)
 - Missing values (Email, Phone, City, Company)
 - Inconsistent formatting (mixed case in City/Status fields, extra whitespace in names)
@@ -53,7 +53,7 @@ The cleaned dataset was migrated into a Salesforce Developer Org as Lead records
 
 ## Files in this Repository
 - `dirty_leads_dataset.csv` — original raw dataset
-- `clean_leads_dataset.csv` — final cleaned dataset (887 records)
+- `clean_leads_dataset.csv` — final cleaned dataset (888 records)
 - `README.md` — this file
 
 ## Author
